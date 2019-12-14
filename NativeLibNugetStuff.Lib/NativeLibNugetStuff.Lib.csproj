@@ -2,11 +2,10 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <RestoreAdditionalProjectSources>../nugets</RestoreAdditionalProjectSources>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="NativeLibNugetStuff.Wrapper" Version="1.0.0" />
+    <ProjectReference Include="../NativeLibNugetStuff.Wrapper/NativeLibNugetStuff.Wrapper.csproj" />
   </ItemGroup>
 
 </Project>
